@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiteMap Generator</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+
+    <header id="titlebar" onmousedown='return false;' onselectstart='return false;' onContextMenu="return false;">
+
+        <div id="drag-region">
+            <div id="window-controls">
+
+                <div class="button" id="min-button">
+                    <img class="icon" srcset="./icon/minimize.png" draggable="false" />
+                </div>
+
+                <div class="button" id="close-button">
+                    <img class="icon" srcset="./icon/close.png" draggable="false" />
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div id="sitemap">
+        <h1 id="title_app">SiteMap Generator</h1>
+        <p id="title_app_p">For small and large sites</p>
+        <input type="text" id="input_sitemap" placeholder="https://example.com">
+        <button id="but_sitemap">Start</button>
+        <p id="error" dir="ltr">Make sure you type the website link correctly !</p>
+        <p id="Developed">Github @rn0x</p>
+    </div>
+
+    <div id="sitemap_load">
+
+        <p id="sitemap_title_top"></p>
+        <div class="loader"></div>
+        <p id="urls">URL`S | <SPan id="urls_span">0</SPan></p>
+
+    </div>
+
+    <div id="sitemap_download" onmousedown='return false;' onselectstart='return false;' onContextMenu="return false;">
+
+        <p id="urls2">URL`S | <SPan id="urls_span2">0</SPan></p>
+        <p id="download_TEXT">Download Sitemap.xml</p>
+        <a href="" id="sitemap_download_a">Download</a>
+        <button id="back">back</button>
+
+    </div>
+
+</body>
+
+</html>
