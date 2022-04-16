@@ -14,12 +14,12 @@
 
 
 <p align="center">
-  <img align="center" src="/github/4.png"> <br><br>
-  <img align="center" src="/github/5.png"> <br><br>
-  <img align="center" src="/github/6.png"> <br><br><br><br>
-  <img align="center" src="/github/3.png"> <br><br>
-  <img align="center" src="/github/2.png"> <br><br>
-  <img align="center" src="/github/1.png"> <br><br>
+  <img align="center" src="/Github/4.png"> <br><br>
+  <img align="center" src="/Github/5.png"> <br><br>
+  <img align="center" src="/Github/6.png"> <br><br><br><br>
+  <img align="center" src="/Github/3.png"> <br><br>
+  <img align="center" src="/Github/2.png"> <br><br>
+  <img align="center" src="/Github/1.png"> <br><br>
 </p>
 
 
