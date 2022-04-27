@@ -83,13 +83,13 @@
       "category": "Development",
       "icon": "build/icons/icon.icns",
       "vendor": "Ryan Almalki",
-      "executableName": "SiteMap Generator",
       "description": "Desktop App for Sitemap Generator",
       "synopsis": "Sitemap Generator",
       "target": [
         "AppImage",
         "deb",
-        "rpm"
+        "rpm",
+        "snap"
       ]
     },
     "directories": {
