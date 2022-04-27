@@ -6,6 +6,7 @@ module.exports = async function sitemap(Path_appDate, url) {
     try {
 
         let urls = 1
+        let filepath = path.join(Path_appDate, '/sitemap_generator/sitemap.xml')
 
         document.getElementById('sitemap').style = 'display: none;'
         document.getElementById('sitemap_download').style = 'display: none;'
@@ -15,7 +16,7 @@ module.exports = async function sitemap(Path_appDate, url) {
         let generator = SitemapGenerator(url, {
             ignoreHreflang: true,
             maxDepth: 0,
-            filepath: path.join(Path_appDate, '/sitemap_generator/sitemap.xml'),
+            filepath: filepath,
             maxEntriesPerFile: 50000,
             stripQuerystring: true,
             lastMod: true,
@@ -48,6 +49,7 @@ module.exports = async function sitemap(Path_appDate, url) {
                 document.getElementById('sitemap').style = 'display: block;'
                 document.getElementById('sitemap_load').style = 'display: none;'
                 document.getElementById('sitemap_download').style = 'display: none;'
+                // console.log(e);
 
             })
 

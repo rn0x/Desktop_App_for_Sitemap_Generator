@@ -17,6 +17,16 @@ window.addEventListener('DOMContentLoaded', async (e) => {
         ipcRenderer.send('close') 
     });
 
+    document.getElementById('title_app').innerText = 'SiteMap Generator'
+    document.getElementById('title_app_p').innerText = 'For small and large sites'
+    document.getElementById('but_sitemap').innerText = 'Start'
+    document.getElementById('error').innerText = 'Make sure you type the website link correctly !'
+    document.getElementById('error').dir = 'ltr'
+    document.getElementById('Developed').innerText = 'Github @rn0x'
+    document.getElementById('download_TEXT').innerText = 'Download Sitemap.xml'
+    document.getElementById('sitemap_download_a').innerText = 'Download'
+    document.getElementById('back').innerText = 'back'
+
     document.getElementById('but_sitemap').addEventListener("click", async e => {
 
         e.preventDefault();
