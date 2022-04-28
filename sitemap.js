@@ -1,4 +1,4 @@
-const SitemapGenerator = require('advanced-sitemap-generator');
+const SitemapGenerator = require('./sitemap/index.js');
 const path = require('path');
 
 module.exports = async function sitemap(Path_appDate, url) {
