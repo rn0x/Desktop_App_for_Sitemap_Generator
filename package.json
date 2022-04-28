@@ -107,7 +107,10 @@
       "description": "Desktop App for Sitemap Generator",
       "synopsis": "Sitemap Generator",
       "target": [
-        "snap"
+        "snap",
+        "AppImage",
+        "deb",
+        "rpm"
       ]
     },
     "directories": {
