@@ -6,6 +6,7 @@ const stringifyURL = require('./helpers/stringifyURL');
 const msg = require('./helpers/msg-helper');
 
 module.exports = (uri, options = {}, browser) => {
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
   // excluded filetypes
   let exlcudeDefaultArray = [
     'gif',
