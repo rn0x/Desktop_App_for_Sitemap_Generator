@@ -1,6 +1,6 @@
 {
   "name": "sitemap-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/rn0x",
   "description": "Desktop App for Sitemap Generator",
   "main": "index.js",
@@ -16,11 +16,13 @@
     "packlinux": "electron-builder --linux",
     "start": "electron .",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "dev": "nodemon --exec electron ."
   },
   "devDependencies": {
     "electron": "^18.0.4",
-    "electron-builder": "^23.0.3"
+    "electron-builder": "^23.0.3",
+    "nodemon": "^2.0.15"
   },
   "dependencies": {
     "fs-extra": "^10.0.1",
