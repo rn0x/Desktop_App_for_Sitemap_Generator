@@ -27,6 +27,19 @@
 
 ## Download App
 
+<p align="center">
+  <a href="https://snapcraft.io/sitemap-generator">
+  <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
+</a> 
+<br>
+
+```
+
+sudo snap install sitemap-generator
+
+```
+</p>
+
 - **Linux**: [Download the .AppImage, .deb, or .rpm file](https://github.com/rn0x/Desktop_App_for_Sitemap_Generator/releases/latest)
 - **Windows**: [Download the .exe file](https://github.com/rn0x/Desktop_App_for_Sitemap_Generator/releases/latest)
 
